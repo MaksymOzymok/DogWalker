@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header {
+    color: white;
+    text-align: center;
+    padding : 180px 0;
+    font-size: 18px;
+   background-size:cover;
+   /*background-position: 100%;*/
+    background-image: url(./images/dogStart.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.nav-item{
+    padding-right: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
