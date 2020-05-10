@@ -5,19 +5,25 @@
     <meta charset="UTf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DogWalker</title>
+    <title>
+
+        DogWalker</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
-    
+    <link rel="shortcut icon" href="./images/logo12.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style='overflow-x:hidden;'>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">DogWalker</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigator">
+        <a class="navbar-brand d-flex" href="index.html">
+            <i class="fas fa-paw lapa"></i>
+            <p class="logotext">DogWalker</p>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +35,7 @@
                     <a class="nav-link" href="#">Хто ми? <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Наші послуги</a>
+                    <a class="nav-link" href="#">Наші переваги</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Відгуки</a>
@@ -46,11 +52,214 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="start">
-
+                    <div class="startText">
+                        <div class="start__title">
+                            <h2>DogWalker - вигуляємо Вашого улюбленця</h2>
+                        </div>
+                        <div class="start__text"></div>
+                        Не вистачає часу, щоб погуляти з вашою собакою?<br>
+                        Не хвилюйтесь, ми це зробимо замість Вас.<br>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="btn btn-outline button1"> Розпочати</button>
+                        <button type="button" class="btn btn-outline">Детальніше...</button>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+    <section class="whoWe">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="about__title">
+                        <h3>Хто ми?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptas accusantium porro vel
+                            vitae sed omnis, impedit facilis laboriosam adipisci dolore nesciunt soluta earum laudantium
+                            voluptate corporis nobis consequuntur odio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="aboutUs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about__title2">
+                        <h3>Наші переваги</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="option">
+                        <img src="./images/option1.png" class="option__logo" alt="">
+                        <div class="option__title">
+                            <h3> GPS-відстеження + звіти</h3>
+                        </div>
+                        <div class="option__text">
+                            <p> Отримуйте сповіщення електронною поштою та прогулюйте карту, коли прогулянка собаки
+                                починається і закінчується.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="option">
+                        <img src="./images/option2.png" class="option__logo" alt="">
+                        <div class="option__title">
+                            <h3> Досвідчені вигулювачі</h3>
+                        </div>
+                        <div class="option__text">
+                            <p>Наш досвідчений персонал проходить перевірку, навчання та інвестування у догляд за вашим
+                                вихованцем.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="option">
+                        <img src="./images/option3.png" class="option__logo" alt="">
+                        <div class="option__title">
+                            <h3>Гнучке планування</h3>
+                        </div>
+                        <div class="option__text">
+                            <p> Вигул собак та вихованців відбувається тоді, коли вам це потрібно. Наші вигулювачі
+                                завжди на поготові</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="gallery__title">
+                        <h3> Наша фотогаларея</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                
+                
+                    <ul class="slides" id="slides">
+                        <li class="slide showing"><img src="./images/gallery1.png" class="imgf" alt=""></li>
+                        <li class="slide">
+                            <img src="./images/gallery2.png" class="imgf" alt="">
+                        </li>
+                        <li class="slide"><img src="./images/gallery3.png" class="imgf" alt=""></li>
+                        <li class="slide"><img src="./images/gallery4.png" class="imgf" alt=""></li>
+                        <li class="slide"><img src="./images/gallery5.png" class="imgf" alt=""></li>
+
+                    </ul>
+                    <div class="buttonsGallery">
+                    <i class="fas fa-chevron-left leftButton"></i>
+                    <i class="fas fa-chevron-right rightButton"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="feedback__title">
+                        <h3>Відгуки Наших Клієнтів</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="feedback__option">
+                        <div class="client">
+                            <div class="client__header d-flex">
+                                <div class="client__photo">
+                                    <img src="./images/client1.png" class="client__photo1" alt="">
+                                </div>
+                                <div class="client__name">
+                                    <h5>Анна</h5>
+
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="client__text">
+                                "...DogWalker - надзвичайна компанія, що вигулює собак! Я не хотів залишати свого
+                                вихованця позаду, коли я вирушав у подорож, хоча вони повністю піклувалися про мене і,
+                                що ще"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feedback__option">
+                        <div class="client">
+                            <div class="client__header d-flex">
+                                <div class="client__photo">
+                                    <img src="./images/client2.png" class="client__photo1" alt="">
+                                </div>
+                                <div class="client__name">
+                                    <h5>Дмитро</h5>
+
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="client__text">
+                                "..."Мати двох вихованців у місті було б неможливо без допомоги FCAP ... Вони справді
+                                найкращі та йдуть вище та поза тим, що я міг хотіти колись у собаківника!"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feedback__option">
+                        <div class="client">
+                            <div class="client__header d-flex">
+                                <div class="client__photo">
+                                    <img src="./images/client3.png" class="client__photo1" alt="">
+                                </div>
+                                <div class="client__name">
+                                    <h5>Світлана</h5>
+
+                                </div>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="client__text">
+                                "...Я не міг би бути власником собак у Нью-Йорку без постійної підтримки FCAP ... вони
+                                ніколи не перестають дивувати мене своєю відданістю та готовністю йти вище та далі."
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -59,22 +268,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="./script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
